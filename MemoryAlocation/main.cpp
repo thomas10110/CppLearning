@@ -5,13 +5,11 @@ int main ()
 {
     using namespace std;
 
-    int * p_number1{new int};// Dynamically allocating memory for an integer
-
-    cout << "Address of p_number1: " << p_number1 << endl;
-
-    delete p_number1; // Deleting uninitialized pointer (undefined behavior)
-    
-    p_number1 = nullptr; // Setting pointer to nullptr after deletion
+int * p_number = new int; // allocate an integer
+    *p_number = 100; // assign a value to the allocated memory
+    cout << "Value of p_number: " << *p_number << endl;
+    delete p_number; // free the allocated memory
+    p_number = nullptr; // set pointer to nullptr after deletion
     
     return 0;
 }
