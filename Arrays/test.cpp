@@ -29,7 +29,7 @@ int main()
           {5, 6, 7, 8},
           {9, 10, 11, 12}
       };
-      cout << arr[1][1]; //prints 12
+      cout << arr[1][1]; //prints 6
 
       return 0;
 }
