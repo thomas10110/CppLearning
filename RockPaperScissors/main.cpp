@@ -36,7 +36,7 @@ int main() {
             continue; // restart loop
         }
     // Generate computer choice
-    srand(static_cast<unsigned int>(time(0))); // Seed for random number generation
+    srand(time(0));
     
     int randomNum = rand() % 3;
 
