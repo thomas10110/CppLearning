@@ -1,5 +1,5 @@
 #include <iostream>
-
+/*
 main()  {
 
         using namespace std;
@@ -19,5 +19,20 @@ int main() {
   cout << "Double: " << myNum2;
   return 0;
 }
-
+*/
+int x = 5;
+void myFunction() {
+  int x = 10;
+    std ::cout << x << std::endl;
 }
+
+
+int main() {
+    myFunction();
+    std::cout << x << std::endl;
+    return 0;
+}
+
+
+
+
